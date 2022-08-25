@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-nestjs-firebase": {
+      "hosting": {
+        "web": [
+          "angular-nestjs-firebase"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-nestjs-firebase"
+  }
+}

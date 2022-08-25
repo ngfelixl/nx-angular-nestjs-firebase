@@ -84,6 +84,16 @@
         "jestConfig": "apps/web/jest.config.ts",
         "passWithNoTests": true
       }
+    },
+    "deploy": {
+      "builder": "@angular/fire:deploy",
+      "options": {
+        "prerender": false,
+        "ssr": false,
+        "browserTarget": "web:build:production",
+        "firebaseProject": "angular-nestjs-firebase",
+        "firebaseHostingSite": "angular-nestjs-firebase"
+      }
     }
   },
   "tags": []
